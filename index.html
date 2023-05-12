@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lesson Bootstrap</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="Normalize&Reset/normalize.css">
+		<link rel="stylesheet" href="Normalize&Reset/normalize.css">
+		<link rel="stylesheet" href="styles/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+			  <a class="navbar-brand text-warning" href="#">Logo</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				 <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+					  <a class="nav-link" href="#team">Команда</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#gallery">Галерея</a>
+					 </li>
+					 <li class="nav-item">
+						<a class="nav-link" href="#news">Новини</a>
+					 </li>
+				 </ul>
+				 <a href="tel:+38050345893" class="nav__telephone btn btn-warning"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/> </svg>+38050345893</a>
+			  </div>
+			</div>
+		 </nav>
+		 <header class="header d-flex align-items-center">
+			<div class="container">
+				<div class="col-md-6">
+					<h1 class="header__title text-info">Доброго вечора, мы з України</h1>
+					<p class="header__article text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repudiandae beatae architecto, tenetur ab numquam tempora sequi nemo nostrum quia corporis error molestias esse!</p>
+					<a href="#" class="btn btn-outline-info btn-lg">See all</a>
+				</div>
+			</div>
+		 </header>
+		 <main class="main">
+			<div id="team" class="py-5 border-bottom border-info">
+				<h2 class="text-center mb-5">Наша Команда</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-3 text-center">
+							<img src="img/avatar.png" class="border-info border rounded-circle mb-3" alt="">
+							<h3 class=" ">Name</h3>
+							<p>speciality</p>
+						</div>
+						<div class="col-md-6 col-lg-3 text-center">
+							<img src="img/avatar.png" class="border-info border rounded-circle mb-3" alt="">
+							<h3 class=" ">Name</h3>
+							<p>speciality</p>
+						</div>
+						<div class="col-md-6 col-lg-3 text-center">
+							<img src="img/avatar.png" class="border-info border rounded-circle mb-3" alt="">
+							<h3 class=" ">Name</h3>
+							<p>speciality</p>
+						</div>
+						<div class="col-md-6 col-lg-3 text-center">
+							<img src="img/avatar.png" class="border-info border rounded-circle mb-3" alt="">
+							<h3 class=" ">Name</h3>
+							<p>speciality</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="gallery" class="py-5 border-bottom border-info" >
+				<h2 class="text-center mb-5"> Галерея</h2>
+				<div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						 <img src="img/portfolio/portfolio-1.png" class="d-block w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						 <img src="img/portfolio/portfolio-2.png" class="d-block w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						 <img src="img/portfolio/portfolio-3.png" class="d-block w-100" alt="...">
+					  </div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				 </div>
+			</div>
+			<div id="news" class="py-5">
+				<h2 class="text-center mb-5">Новини</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+								<img src="img/blog/blog-news-1.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+								  <h5 class="card-title">Карта 1</h5>
+								  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								  <a href="#" class="btn btn-info">Go somewhere</a>
+								</div>
+						</div>
+						<div class="col-lg-4">
+								<img src="img/blog/blog-news-2.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+								  <h5 class="card-title">Ката 2</h5>
+								  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								  <a href="#" class="btn btn-info">Go somewhere</a>
+								</div>
+							 
+						</div>
+						<div class="col-lg-4">
+								<img src="img/blog/blog-news-3.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+								  <h5 class="card-title">Карта 3</h5>
+								  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								  <a href="#" class="btn btn-info">Go somewhere</a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Кнопка-триггер модального окна -->
+<button type="button" class="btn btn-primary fixed-bottom fix" data-bs-toggle="modal" data-bs-target="#exampleModal">
+	Запустите демо модального окна
+ </button>
+ 
+ <!-- Модальное окно -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		 <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">Заголовок модального окна</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+		 </div>
+		 <div class="modal-body">
+			...
+		 </div>
+		 <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+			<button type="button" class="btn btn-primary">Сохранить изменения</button>
+		 </div>
+	  </div>
+	</div>
+ </div>
+		 </main>
+		 <div class="popup"></div>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+	</body>
+</html>
